@@ -10,3 +10,8 @@ python ./app.py
 to
 
 C:\tools\python36\python.exe ./app.py
+
+To launch the script, create a task with the following command (for this you will need admin rights):
+
+schtasks.exe /create /tn "Tornado App Server" /ru SYSTEM /Sc ONSTART /tr
+"C:\tornado_startup.bat"
