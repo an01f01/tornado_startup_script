@@ -9,4 +9,4 @@ python ./app.py
 
 to
 
-C:\tools\python36\python.exe
+C:\tools\python36\python.exe ./app.py
